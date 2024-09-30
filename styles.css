@@ -1,0 +1,193 @@
+/* General Styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+body {
+    font-family: 'Arial', sans-serif;
+    color:red;
+    background-color: #f9f9f9;
+    
+}
+
+h1, h2, h3 {
+    font-family: 'Georgia', serif;
+    color: #111;
+}
+
+p {
+    color: rgb(17, 17, 17);
+}
+
+
+/* Header Styling */
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: rgb(64, 74, 87);
+    padding: 15px 30px;
+    color: white;
+}
+
+
+.logo h1 {
+    font-size: 24px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    color:rgb(242, 90, 148);
+}
+
+nav ul {
+    list-style-type: none;
+    display: flex;
+    gap: 20px;
+}
+
+nav ul li a {
+    color:rgb(242, 90, 148);
+    text-decoration: none;
+    font-size: 18px;
+}
+
+nav ul li a:hover {
+    color: #ddd;
+    font-size:19px ;
+}
+
+/* Hero Section */
+.hero {
+    background: url('b1.jpg') no-repeat center center/cover;
+    
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    text-align: center;
+    position: relative;
+    
+}
+
+.hero-content {
+    
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.hero h2 {
+    font-size: 3rem;
+    margin-bottom: 10px;
+}
+
+.hero p {
+    margin: 20px 0;
+    font-size: 1.5rem;
+}
+
+.cta-button {
+    background: rgb(242, 90, 148);;
+    padding: 10px 20px;
+    color: white;
+    text-decoration: none;
+    font-size: 1.2rem;
+    border-radius: 5px;
+}
+
+.cta-button:hover {
+    background: rgb(242, 21, 106);
+}
+
+/* Collection Section */
+.collection-section {
+    padding: 50px 20px;
+    text-align: center;
+    background-color: #fff;
+}
+
+.collection-section h2 {
+    margin-bottom: 30px;
+    font-size: 2.5rem;
+}
+
+.decor-grid {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+}
+
+.decor-card {
+    background: #f4f4f4;
+    border-radius: 10px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    width: 300px;
+    text-align: center;
+}
+
+.decor-card img {
+    max-width: 100%;
+    border-radius: 10px;
+    height:300px;
+    width: 350px;
+}
+
+.decor-card h3 {
+    margin: 15px 0;
+    font-size: 1.5rem;
+}
+
+.decor-card p {
+    color: #555;
+}
+
+/* About Section */
+#about {
+    padding: 50px 20px;
+    background-color: #f9f9f9;
+    text-align: center;
+    background-color: #ebbec8;
+    /*background-image: url(https://png.pngtree.com/thumb_back/fh260/back_our/20190621/ourmid/pngtree-taobao-tmall-home-decoration-festival-banner-template-image_190319.jpg);
+    */background-repeat: no-repeat;
+   
+}
+
+
+#about h2 {
+    font-size: 2.5rem;
+}
+
+#about p {
+    font-size: 1.2rem;
+    max-width: 700px;
+    margin: 20px auto;
+}
+
+/* Contact Section */
+#contact {
+    padding: 50px 20px;
+    background-color: #fff;
+    text-align: center;
+}
+
+#contact form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#contact form input, #contact form textarea {
+    width: 100%;
+    max-width: 400px;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #5e5e5e;
+    border-radius: 5px;
+}
+#contact button{
+    border: none;
+    font-size: 13px;
+}
